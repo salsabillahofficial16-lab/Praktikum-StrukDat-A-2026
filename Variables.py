@@ -1,39 +1,61 @@
 #Creating Variables
 #Membuat Variabel
-Q = 5
-P = "Doni"
-print(Q)
-print(P)
+# Q = 5
+# P = "Doni"
+# print(Q)
+# print(P)
+
+# x = 4       # x adalah tipe data int
+# x = "Jelly" # x adalah tipe dta  str
+# print(x)
+
 
 #Casting
-x = str(27)    
-y = int(6)    
-z = float(23)
+# x = str(27)    
+# y = int(6)    
+# z = float(23)
+# print(x)
+# print(y)
+# print(z)
+
 
 #Get the Type
-x = 7
-y = "Ayam"
-print(type(x))
-print(type(y))
+# x = 7
+# y = "Ayam"
+# print(type(x))
+# print(type(y))
 
 #Single or Double Quotes(satu atau 2 tanda kutip)
-x = "ikan"
-x = 'ikan'
+# x = "ikan"
+# x = 'ikan'
+
+# x = "ayam goreng"
+# print(x)
+# #double quotes are the same as single quotes:
+# x = 'ayam goreng'
+# print(x)
+
 
 #Case-Sensitive
-d = 23
-D = "Jelly"
-print(d)
-print(D)
+# d = 23
+# D = "Jelly"
+# print(d)
+# print(D)
 
 #Variable Names
 #Nama variabel yang sah
-myvar = "Jennie"
-my_var = "Jennie"
-_my_var = "Jennie"
-myVar = "Jennie"
-MYVAR = "Jennie"
-myvar2 = "Jennie"
+# myvar = "Jennie"
+# my_var = "Jennie"
+# _my_var = "Jennie"
+# myVar = "Jennie"
+# MYVAR = "Jennie"
+# myvar2 = "Jennie"
+# print(myvar)
+# print(my_var)
+# print(_my_var)
+# print(myVar)
+# print(MYVAR)
+# print(myvar2)
 
 #Multi Words Variable Names
 #Camel Case(java gunain ini)
@@ -49,76 +71,80 @@ MyVariableName = "Jennie"
 my_variable_name = "Jennie"
 
 #Banyak Nilai untuk Banyak Variabel
-x, y, z = "apel", "Berry", "Cherry"
-print(x)
-print(y)
-print(z)
+# x, y, z = "apel", "Berry", "Cherry"
+# print(x)
+# print(y)
+# print(z)
 
 #Satu Nilai untuk Beberapa Variabel
-x = y = z = "blueberry"
-print(x)
-print(y)
-print(z)
+# x = y = z = "blueberry"
+# print(x)
+# print(y)
+# print(z)
 
 #Unpack a Collection(membuka koleksi)
-fruits = ["apple", "banana", "cherry"]
-x, y, z = fruits
-print(x)
-print(y)
-print(z)
+# fruits = ["apple", "banana", "cherry"]
+# x, y, z = fruits
+# print(x)
+# print(y)
+# print(z)
 
 #Variabel Output
 #Variabel Keluaran
-A = "exo akan comeback"
-print(A)
+# A = "exo akan comeback"
+# print(A)
 
-b = "exo"
-c = "akan"
-d = "comeback"
-print(b, c, d)
+# b = "exo"
+# c = "akan"
+# d = "comeback"
+# print(b, c, d)
 
-b = "exo "
-c = "akan "
-d = "comback"
-print(b + c + d)
+# b = "exo "
+# c = "akan "
+# d = "comeback"
+# print(b + c + d)
+# x = 5
+# y = "sate"
+# print(x, y)
+
 
 #Global Variables
 #Variabel Global 
 #Buat variabel di luar fungsi, dan gunakan variabel tersebut di dalam fungsi
-G = "Amazing"
+# G = "Amazing"
 
-def myfunc():
-  print("Python is " + G)
+# def myfunc():
+#   print("Python is " + G)
 
-myfunc()
+# myfunc()
 
 #Buat variabel di dalam fungsi, dengan nama yang sama dengan variabel global.
-G = "Amazing"
+# G = "Amazing"
 
-def myfunc():
-  G = "fantastic"
-  print("gruop exo " + G)
+# def myfunc():
+#  G = "fantastic"
+#  print("gruop exo " + G)
 
-myfunc()
+# myfunc()
 
-print("gruop exo " + G)
+# print("gruop exo " + G)
 
 #The global Keyword(Kata kunci global)
 #Jika Anda menggunakan globalkata kunci tersebut, variabel tersebut termasuk dalam cakupan global
-def myfunc():
-  global j
-  j = "dunia"
+# def myfunc():
+#  global j
+#  j = "dunia"
 
-myfunc()
+# myfunc()
 
-print("indahnya " + j)
+# print("indahnya " + j)
 
 #Untuk mengubah nilai variabel global di dalam sebuah fungsi, rujuk variabel tersebut dengan menggunakan globalkata kunci
 k = "keeren"
 
 def myfunc():
-  global k
-  k = "mantab"
+ global k
+ k = "mantab"
 
 myfunc()
 

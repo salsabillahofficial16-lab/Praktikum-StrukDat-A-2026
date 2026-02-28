@@ -1,8 +1,12 @@
 #Creating a Comment
-#print("Hello , Indonesia!")
-print("hello, Indonesia!")
+# print("hello, Indonesia!") #this is a comment
 
 #Multiline comments
+#This is a comment
+#written in
+#more than just one line
+# print("Hello, World!")
+
 """
 nusantara
 
