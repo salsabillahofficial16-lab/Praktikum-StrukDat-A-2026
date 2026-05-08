@@ -98,3 +98,4 @@ print("\n")
 print(f"[DATA] Gudang Ujung (Leaf Nodes): {get_leaf_nodes(struktur_gudang.root)}")
 print("======================================")
 print("Audit Selesai!")
+
